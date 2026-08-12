@@ -15,6 +15,7 @@ plt.bar(departments, employees)
 plt.title("Employees in Each Department")
 plt.xlabel("Department")
 plt.ylabel("Number of Employees")
+plt.savefig("employees_by_department.png")
 plt.show()
 # ----------------------------
 # LINE CHART
@@ -25,6 +26,7 @@ plt.title("Monthly Sales")
 plt.xlabel("Month")
 plt.ylabel("Sales (₹)")
 plt.grid(True)
+plt.savefig("monthly_sales.png")
 plt.show()
 # ----------------------------
 # PIE CHART
@@ -35,4 +37,5 @@ plt.pie(expenses,
         autopct="%1.1f%%",
         startangle=90)
 plt.title("Company Expenses Distribution")
+plt.savefig("expenses_pie_chart.png")
 plt.show()
